@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1470px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+body {
+  background: #223;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+h2,
+h2,
+h3 {
+  font-family: "Fira Sans", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.contests__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.contests__item {
+  background: #445;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.contests__item-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.contests__item-site {
+  margin-bottom: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
