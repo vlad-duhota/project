@@ -275,3 +275,11 @@ closeBtn.addEventListener('click', () => {
         popUpElement.classList.remove('pop-up_active');
     }, 300);
 });
+
+// header
+const menuBtn = document.querySelector('.header__menu-btn');
+const menu = document.querySelector('.header__menu');
+menuBtn.addEventListener('click', () => {
+    menuBtn.classList.toggle('header__menu-btn_active');
+    menu.classList.toggle('header__menu_active');
+});
